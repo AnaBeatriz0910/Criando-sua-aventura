@@ -1,53 +1,33 @@
-body{
-    color:white;
-    background:black;
-    margin: 0px;
-     
+body {
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }
 
-header{
-    border-bottom:solid 2px rgb(81, 9, 237);
-    padding: 20px;
-    font-size: 32;
-    color:rgb(53, 22, 192);
-     font-family: "Rubik Glitch", system-ui;
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
-.chamada{
-    background: rgb(172, 136, 211);
-    padding-bottom:80px;
-    padding-top:80px;
-    display:flex;
-    justify-content:center;
+.passo {
+    display: none;
 }
 
-chamada-texto {
-    margin-right:5%;
-}
-h1{ font-size:40px
-
+.passo.ativo {
+    display:block;
 }
 
-p{
-    font-size:20px
-}
-img{
-    height:200px;
-}
-.categoria-viseos {
-display: flex;
-overflow-x: auto;
-gap:10px
+main {
+    text-align: center;
+    max-width: 90%;
 }
 
-.categoria{
-    padding-left:20px;
-    padding-right:20px;
-}
-.categoria-viseos img{
-    opacity:0.5
-}
-.categoria-viseos img:hover{
-    opacity:1.0
-    : 1px solid green;
+img {
+    max-width: 90%;
 }
